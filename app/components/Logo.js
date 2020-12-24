@@ -1,15 +1,15 @@
 
 import React from 'react';
 import { StyleSheet, Text, View ,Image } from 'react-native';
-import { useFonts,Lobster_400Regular } from '@expo-google-fonts/lobster'
+//import { useFonts,Lobster_400Regular } from '@expo-google-fonts/lobster'
 
  
 
 export default function Logo(logoWidth) {
 
-let [fontsLoaded]=useFonts({
-        Lobster_400Regular ,
-    });
+// let [fontsLoaded]=useFonts({
+//         Lobster_400Regular ,
+//     });
 
   return (
       <View style={styles.logoCon}>
