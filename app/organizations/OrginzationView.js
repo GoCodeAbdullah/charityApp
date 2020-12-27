@@ -11,7 +11,7 @@ const OrginzationView=({route})=>{
     const x = profile.pic;
     return(
         <View style={styles.container}>
-          <Header />
+          
           <ScrollView>
             <View style={styles.imageContainer}>
               <Image

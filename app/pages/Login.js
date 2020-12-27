@@ -22,7 +22,7 @@ export default function Login({navigation}){
                     />
 
                     <TouchableOpacity style={styles.button} 
-                     onPress={()=>navigation.navigate("Orginzations")}                       
+                     onPress={()=>navigation.navigate("home")}                       
                     >
                         <Text style={styles.buttonText}>Sign In</Text>
                     </TouchableOpacity>

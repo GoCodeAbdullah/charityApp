@@ -11,6 +11,8 @@ import OrginzationView from "../organizations/OrginzationView";
 
 import Login from "../pages/Login";
 import Signup from "../pages/Signup";
+import Home from "../pages/Home";
+import About from "../pages/About";
 
 // Componenets
 
@@ -32,6 +34,8 @@ const OrginizationStack = () =>{
       <Stack.Screen name="login " component={Login} />
       <Stack.Screen name="signup" component={Signup} />
       <Stack.Screen name="header" component={Header} />
+      <Stack.Screen name="home" component={Home} />
+      <Stack.Screen name="about" component={About} />
       <Stack.Screen name="Orginzations" component={OrginzationsList} />
       <Stack.Screen name="OrganizationView" component={OrginzationView} />
     </Stack.Navigator>

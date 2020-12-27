@@ -41,7 +41,7 @@ const orgnization =[
 const OrginzationsList= ({navigation})=>{
     return(
         <View style={styles.container}>
-            <Header />
+          
             
 
             <Image
